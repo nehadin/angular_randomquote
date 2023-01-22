@@ -1,0 +1,25 @@
+div{
+    color: white;
+   
+    
+}
+.box{
+    /* background-color: rgba(250, 87, 0, 0.514);
+     */
+     background: linear-gradient(0deg, #f87f29 0%, #fc439c 100%);
+   box-shadow: 3px 8px 5px rgb(139, 49, 49);
+    font-size: 18px;
+}
+a{
+    border: 2px;
+    background-color: rgba(86, 5, 5, 0.507);
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 3px 8px 5px rgba(86, 5, 5, 0.282);
+}
+
+a:hover{
+    background-color: white;
+    color: rgba(86, 5, 5, 0.507);
+}

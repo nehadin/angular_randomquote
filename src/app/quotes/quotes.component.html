@@ -1,0 +1,33 @@
+<div class="box row justify-content-md-center mt-5 p-3"> 
+
+    
+    <div class="box2 m-5 p-4 text-center w-75">
+        <app-data [qdata]="content" [qdata2]="author"></app-data>
+<div [ngClass]="content ?'style':''">
+    <h1>Generate Quotes</h1><br>
+    <b>Select tag : <br></b>
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn btn-outline-light clc" (click)="display('business')">Business</button>
+                <button type="button" class="btn btn-outline-light clc" (click)="display('character')">Character</button>
+                <button type="button" class="btn btn-outline-light clc" (click)="display('courage')">Courage</button>
+                <button type="button" class="btn btn-outline-light clc" (click)="display('faith')">Faith</button>
+                <button type="button" class="btn btn-outline-light clc" (click)="display('friendship')">Friendship</button>
+                <button type="button" class="btn btn-outline-light clc" (click)="display('life')">Life</button>
+                <button type="button" class="btn btn-outline-light clc" (click)="display('happiness')">Happiness</button>
+                <!-- </div>
+                <div class="btn-group text-center mt-3" role="group" aria-label="Basic outlined example"> -->
+                <button type="button" class="btn clc" (click)="display('humor|humorous')">Humor</button>
+                <button type="button" class="btn clc" (click)="display('leadership')">Leadership</button>
+                <button type="button" class="btn clc" (click)="display('love')">Love</button>
+                <button type="button" class="btn  clc" (click)="display('motivational')">Motivation</button>
+                <button type="button" class="btn clc" (click)="display('time')">Time</button>
+                <button type="button" class="btn clc" (click)="display('virtue')">Virtue</button>
+              </div>
+              <br>
+              
+            <button class="btn btn-outline-dark mt-3 border-dark rounded" type="button" (click)="load()" >Get Quote</button> 
+            
+</div>
+        
+    </div>
+</div>
